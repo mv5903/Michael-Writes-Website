@@ -58,7 +58,7 @@ body {
 .Writing-Section-Title {
   text-align: left;
   margin-left: 2em;
-  padding: 0.5em 1em;
+  padding: 0.25em .5em;
   font-size: 2.5em;
   border: 1px solid black;
   width: fit-content;
@@ -93,6 +93,24 @@ body {
 
 .Writing-Section-Article {
   font-size: 1.75em;
+}
+
+.Social-Links {
+  font-size: 1em;
+  color: black;
+  list-style: none;
+  margin-left: 5em;
+  margin-top: 3em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 5em;
+}
+
+.Social-Link {
+  width: 5em;
+  height: 5em;
+  color: black;
 }
 
 .navbar li {
