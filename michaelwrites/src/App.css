@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #C9E4EB;
+  background-color: #FAF3FD;
   color: black;
 }
 
@@ -93,6 +93,14 @@ body {
 
 .Writing-Section-Article {
   font-size: 1.75em;
+}
+
+.Michael-Image {
+  position: absolute;
+  border-radius: 5px;
+  right: 10vw;
+  bottom: 10vh;
+  width: 20%;
 }
 
 .Social-Links {
