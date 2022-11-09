@@ -10,54 +10,111 @@ export default function Writing() {
 
     const sections = [
         {
-            title: "Advertorial",
-            description: "Advertorial is a combination of advertisement and editorial. It is a form of paid content that is written by a journalist and published in a newspaper, magazine, or online publication. Advertorial is a form of native advertising.",
+            title: "Advertorials",
+            description: "Published editorials specifically designed to sell the audience on a customer's product or service. All of these are aimed at establishing an emotional connection with the reader.",
             visible: advetorial,
             setVisible: setAdvetorial,
             articles: [
                 {
-                    title: "Resume",
-                    path: "/files/writing/advertorial/resume.pdf"
+                    title: "Susskind & Almallah",
+                    path: "/files/writing/advertorial/Susskind & Almallah.pdf"
                 },
                 {
-                    title: "Cover Letter",
-                    path: "/files/writing/advertorial/resume.pdf"
+                    title: "The Learning Corp",
+                    path: "/files/writing/advertorial/The Learning Corp.pdf"
                 },
+                {
+                    title: "THe MAX Challenge of Howell",
+                    path: "/files/writing/advertorial/THe MAX Challenge of Howell.pdf"
+                },
+                {
+                    title: "Diaz Tree Service",
+                    path: "/files/writing/advertorial/Diaz Tree Service.pdf"
+                },
+                {
+                    title: "Restaurant Treasure Book",
+                    path: "/files/writing/advertorial/Restaurant Treasure Book.pdf"
+                }
+
             ]
         },
         {
-            title: "SEO (Search Engine Optimization)",
-            description: "Search engine optimization (SEO) is the process of improving the quality and quantity of website traffic to a website or a web page from search engines. SEO refers to the improvement of unpaid results (known as \"natural\" or \"organic\" results) and excludes direct traffic/visitors and the purchase of paid placement.",
+            title: "Online Content and Blogs",
+            description: "SEO and other blog content created on various topics. Included below are list posts, how-to's, comparison pieces, and basic question-and-answer articles. ",
             visible: seo,
             setVisible: setSeo,
             articles: [
                 {
-                    title: "Resume",
-                    path: "/files/writing/seo/resume.pdf"
+                    title: "9 Best Hotels For Business Travelers With Kids",
+                    path: "/files/writing/seo/9 Best Hotels For Business Travelers With Kids.pdf"
+                },
+                {
+                    title: "17 Travel Apps Perfect For Business Trips",
+                    path: "/files/writing/seo/X Travel Apps Perfect For Business Trips.pdf"
+                },
+                {
+                    title: "Tips for Building Mental Toughness in Baseball",
+                    path: "/files/writing/seo/Tips for Building Mental Toughness in Baseball.pdf"
+                },
+                {
+                    title: "How to Secure a Toilet Flange in 8 Steps",
+                    path: "/files/writing/seo/How to Secure a Toilet Flange in 8 Steps.pdf"
+                },
+                {
+                    title: "How to Throw A Cornhole Bag",
+                    path: "/files/writing/seo/How to Throw A Cornhole Bag.pdf"
+                },
+                {
+                    title: "Why Does My Trimmer Line Keep Breaking",
+                    path: "/files/writing/seo/Why Does My Trimmer Line Keep Breaking.pdf"
+                },
+                {
+                    title: "Rapid Prototyping vs 3D Printing",
+                    path: "/files/writing/seo/Rapid Prototyping vs 3D Printing.pdf"
+                },
+                {
+                    title: "Coinbase vs Coinbase Pro- What's the Difference",
+                    path: "/files/writing/seo/Coinbase vs Coinbase Pro- What's the Difference.pdf"
                 }
             ]
         },
         {
             title: "Sports",
-            description: "Sports are competitive physical or mental activities which, through casual or organised participation, aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators. Sports can be played by individuals or teams and can be either casual or organised.",
+            description: "Articles highlighting unique sports and athletes. These are from a sports column I kept in the About Our Town newspapers.",
             visible: sports,
             setVisible: setSports,
             articles: [
                 {
-                    title: "Resume",
-                    path: "/files/writing/sports/resume.pdf"
+                    title: "Ice Fishing",
+                    path: "/files/writing/sports/Ice Fishing.pdf"
+                },
+                {
+                    title: "Plainfield Curling Club",
+                    path: "/files/writing/sports/Plainfield Curling Club.pdf"
+                },
+                {
+                    title: "Stumpy's Hatchet House",
+                    path: "/files/writing/sports/Stumpy's Hatchet House.pdf"
+                },
+                {
+                    title: "Rutgers Water Polo",
+                    path: "/files/writing/sports/Rutgers Water Polo.pdf"
                 }
             ]
         },
         {
             title: "News",
-            description: "News is information about current events. This may be provided through many different media: word of mouth, printing, postal systems, broadcasting, electronic communication, or through the testimony of observers and witnesses to events. It is also used as a platform to manufacture opinion for the population.",
+            description: "Standard AP Style news articles",
             visible: news,
             setVisible: setNews,
             articles: [
                 {
-                    title: "Resume",
-                    path: "/files/writing/news/resume.pdf"
+                    title: "Bill Moore",
+                    path: "/files/writing/news/Bill Moore.pdf"
+                },
+                {
+                    title: "Jon McBride",
+                    path: "/files/writing/news/Jon McBride Article.pdf"
                 }
             ]
         },
