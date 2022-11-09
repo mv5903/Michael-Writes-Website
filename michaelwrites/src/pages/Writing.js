@@ -73,8 +73,8 @@ export default function Writing() {
                     path: "/files/writing/seo/Rapid Prototyping vs 3D Printing.pdf"
                 },
                 {
-                    title: "Coinbase vs Coinbase Pro- What's the Difference",
-                    path: "/files/writing/seo/Coinbase vs Coinbase Pro- What's the Difference.pdf"
+                    title: "iPhone Photo Settings",
+                    path: "/files/writing/seo/iPhone photo settings.pdf"
                 }
             ]
         },
