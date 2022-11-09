@@ -12,7 +12,7 @@ export default function Layout() {
                         <Link to="/writing">Writing</Link>
                     </li>
                     <li>
-                        <a href="/files/writing/resume.pdf" target="_blank">Resume</a>
+                        <a href="/files/writing/MichaelVandenbergResume.pdf" target="_blank">Resume</a>
                     </li>
                 </ul>
             </nav>

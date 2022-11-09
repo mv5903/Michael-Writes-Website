@@ -3,13 +3,8 @@
 }
 
 body {
-  background-color: #FAF3FD;
+  background-color: #baffe9;
   color: black;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 .navbar {
@@ -93,6 +88,7 @@ body {
 
 .Writing-Section-Article {
   font-size: 1.75em;
+  line-height: 1.5em;
 }
 
 .Michael-Image {
@@ -111,7 +107,6 @@ body {
   margin-top: 3em;
   position: absolute;
   bottom: 0;
-  width: 100%;
   margin-bottom: 5em;
 }
 
@@ -120,6 +115,21 @@ body {
   height: 5em;
   color: black;
 }
+
+.Social-Flex {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.Email-Box {
+  position: relative;
+  font-size: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  font-size: 1.5em;
+}
+
 
 .navbar li {
   padding: 0 1.5em;

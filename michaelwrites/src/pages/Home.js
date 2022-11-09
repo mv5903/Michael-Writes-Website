@@ -1,8 +1,13 @@
 import { AiOutlineMail, AiOutlineLinkedin } from 'react-icons/ai';
 import Michael from './front.jpg';
 import { SiUpwork } from 'react-icons/si';
+import { isMobile } from 'react-device-detect';
+import { useState } from 'react';
+import EmailHover from './EmailHover';
 
 export default function Home() {
+
+    const [showEmail, setShowEmail] = useState(false);
 
     const socialLinks = [
         {
@@ -22,7 +27,13 @@ export default function Home() {
         }
     ]
 
-
+    const handleMouseOver = () => {
+        setShowEmail(true);
+    }
+    
+    const handleMouseLeave = () => {
+        setShowEmail(false);
+    }
 
     return (
         <div className="App">
@@ -31,13 +42,19 @@ export default function Home() {
             <img src={Michael} className="Michael-Image" alt="Michael working." />
             <div className="Social-Links">
                 {socialLinks.map((link, index) => (
-                    <a href={link.path} target="_blank" rel="noreferrer" key={index}>
-                        <div className="Social-Link">
-                            {link.icon}
+                    <div className="Social-Flex">
+                        <a href={link.path} onMouseOver={link.title == "Email" && !isMobile ? handleMouseOver : null} onMouseOut={link.title == "Email" && !isMobile ? handleMouseLeave : null} target="_blank" rel="noreferrer" key={index}>
+                            <div className="Social-Link">
+                                {link.icon}
+                            </div>
+                        </a>
+                        <div className="Email-Box">
+                            {showEmail && link.title === "Email" && <EmailHover />}
                         </div>
-                    </a>
+                    </div>
                 ))}
             </div>
         </div>
     ); 
 }
+
