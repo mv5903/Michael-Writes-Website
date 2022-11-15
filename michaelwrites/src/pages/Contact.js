@@ -72,9 +72,9 @@ export default function Contact() {
                     </h2>
                 </form>
                 <footer>
-                    <a href="https://www.mattvandenberg.com/">Looking for a Developer?</a>
+                    <a href="https://www.mattvandenberg.com/" target="_blank">Looking for a Developer?</a>
                     <br></br>
-                    <a href="https://www.jilldraws.com/">Looking for a Cartoonist?</a>
+                    <a href="https://www.jilldraws.com/" target="_blank">Looking for a Cartoonist?</a>
                 </footer>
             </div>
         ); 
@@ -83,9 +83,9 @@ export default function Contact() {
         <div className="App">
             <h1>Thank you, your message has been sent! I will be in touch shortly!</h1>
             <footer>
-                <a href="https://www.mattvandenberg.com/">Looking for a Developer?</a>
+                <a href="https://www.mattvandenberg.com/" target="_blank">Looking for a Developer?</a>
                 <br></br>
-                <a href="https://www.jilldraws.com/">Looking for a Cartoonist?</a>
+                <a href="https://www.jilldraws.com/" target="_blank">Looking for a Cartoonist?</a>
             </footer>
         </div>
     );

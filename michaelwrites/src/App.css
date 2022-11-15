@@ -191,6 +191,7 @@ form button {
 
 form button:hover {
   cursor: pointer;
+  background-color: lightgray;
 }
 
 .error {
