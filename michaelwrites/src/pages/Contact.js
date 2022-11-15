@@ -81,7 +81,7 @@ export default function Contact() {
     }
     return (
         <div className="App">
-            <h1>Thank you, your message has been sent! We will be in touch shortly!</h1>
+            <h1>Thank you, your message has been sent! I will be in touch shortly!</h1>
             <footer>
                 <a href="https://www.mattvandenberg.com/">Looking for a Developer?</a>
                 <br></br>
