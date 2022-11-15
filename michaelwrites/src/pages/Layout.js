@@ -14,6 +14,9 @@ export default function Layout() {
                     <li>
                         <a href="/files/writing/MichaelVandenbergResume.pdf" target="_blank">Resume</a>
                     </li>
+                    <li>
+                        <Link to="/contact">Contact</Link>
+                    </li>
                 </ul>
             </nav>
 

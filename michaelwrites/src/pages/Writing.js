@@ -24,8 +24,8 @@ export default function Writing() {
                     path: "/files/writing/advertorial/The Learning Corp.pdf"
                 },
                 {
-                    title: "THe MAX Challenge of Howell",
-                    path: "/files/writing/advertorial/THe MAX Challenge of Howell.pdf"
+                    title: "The MAX Challenge of Howell",
+                    path: "/files/writing/advertorial/The MAX Challenge of Howell.pdf"
                 },
                 {
                     title: "Diaz Tree Service",
